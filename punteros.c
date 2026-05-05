@@ -6,8 +6,9 @@ int main()
     int *x;
 
     x= &num;
+    a=*x;
 
-    printf("%p",x);
+    printf("%p %d",x,a);
     
 
    
