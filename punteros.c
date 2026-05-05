@@ -8,7 +8,7 @@ int main()
     x= &num;
     a=*x;
 
-    printf("%p %d",x,a);
+    printf("%p %d\n",x,a);
 
     char letra = 'a',c;
     char *ptr;
