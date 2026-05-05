@@ -9,7 +9,15 @@ int main()
     a=*x;
 
     printf("%p %d",x,a);
-    
+
+    char letra = 'a',c;
+    char *ptr;
+
+    ptr= &letra;
+    c=*ptr;
+
+    printf("%p %d",ptr,c);
+
 
    
     return 0;
