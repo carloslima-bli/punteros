@@ -16,7 +16,15 @@ int main()
     ptr= &letra;
     c=*ptr;
 
-    printf("%p %d",ptr,c);
+    printf("%p %d\n",ptr,c);
+
+    float decimal=3.14,dec;
+    float *ptrF;
+    ptrF=&decimal;
+    dec=*ptrF;
+
+    printf("%p %.2f",ptrF,dec);
+
 
 
    
